@@ -1,4 +1,4 @@
 const foo = () => {
-    console.log('Do something')
+    console.log('Do something please')
 }
 

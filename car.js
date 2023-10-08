@@ -1,2 +1,1 @@
-console.log('car')
-console.log('another')
+console.log('car tesla')
