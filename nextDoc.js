@@ -1,1 +1,1 @@
-console.log('Doc')
+console.log('Doc type')
