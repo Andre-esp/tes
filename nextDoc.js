@@ -1,2 +1,3 @@
-console.log('Doc tasdawd')
-console.log('Doc type bug something')
+console.log('Doc data')
+console.log('Doc data test')
+console.log('Doc type')
