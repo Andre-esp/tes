@@ -1,2 +1,2 @@
 console.log('new file')
-console.log('new file test')
+console.log('new file')
