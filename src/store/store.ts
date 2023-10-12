@@ -11,9 +11,9 @@ class CounterStore {
         makeAutoObservable(this)
     }
 
-    minus = () => this.counter--
-
     plus = () => this.counter++
+
+    minus = () => this.counter--
 
     startTimer = () => {
         if(this.workTimer) {
