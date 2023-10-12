@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "node ./scripts/test.js",
     "build:storybook": "node ./scripts/storybook.js",
     "lint": "node ./scripts/eslint.js",
     "eject": "react-scripts eject"
