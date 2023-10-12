@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/counter';
+import counterStore from './store/store'
+import {observer} from 'mobx-react-lite'
 
-function App() {
+const App = observer(() => {
+  const {plus, minus, startTimer, stopTimer, time} = counterStore
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Counter />
+    <button onClick={() => plus()}>plus</button>
+    <button onClick={() => minus()}>minus</button>
+    <button onClick={() => startTimer()}>pusk timer</button>
+    <button onClick={() => stopTimer()}>stop timer</button>
+    <span>{time}</span>
     </div>
-  );
-}
+    
+  ) 
+})
 
 export default App;
