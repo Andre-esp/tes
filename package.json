@@ -20,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "build:storybook": "node ./scripts/storybook.js",
+    "lint": "node ./scripts/eslint.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
