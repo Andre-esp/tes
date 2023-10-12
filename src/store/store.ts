@@ -1,5 +1,5 @@
 import {makeAutoObservable} from 'mobx'
-class counterStore {
+class CounterStore {
 
     time = 0
     timerName
@@ -31,5 +31,5 @@ class counterStore {
         return clearTimeout(this.timerName)
     }
 }
-
-export default new counterStore()
+const counterStore = new CounterStore()
+export default counterStore
