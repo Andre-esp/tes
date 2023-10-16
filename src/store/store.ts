@@ -2,8 +2,8 @@ import {makeAutoObservable} from 'mobx'
 class CounterStore {
 
     time = 0
-    timerName
-    workTimer
+    timerName: NodeJS.Timer
+    workTimer: boolean
 
     counter = 0
 
@@ -14,7 +14,6 @@ class CounterStore {
     minus = () => this.counter--
 
     plus = () => this.counter++
-
 
     startTimer = () => {
         if(this.workTimer) {
