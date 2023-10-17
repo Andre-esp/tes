@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import Counter from "count/Counter"
+import Header from "header/Header"
+
 import "./index.css";
 
 const App = () => (
-  <div className="container">
-    <div>Name: host</div>
-    <div>Framework: react</div>
-    <div>Language: TypeScript</div>
-    <div>CSS: Empty CSS</div>
-  </div>
+  <>
+  <div>Name: host</div>
+    <Header />
+    <Counter />
+  </>
+    
 );
 ReactDOM.render(<App />, document.getElementById("app"));
