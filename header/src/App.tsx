@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Counter from "./Counter"
+import Header from "./Header";
 
-import "./index.css";
+// import style from "./header-css.module.css";
 
 const App = () => (
   <div className="container">
-    <div>Name: Count</div>
-    <Counter />
+    <div>Name: header</div>
+    <Header />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
