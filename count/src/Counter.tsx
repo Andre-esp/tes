@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import counterStore from './store/store';
 import { observer } from 'mobx-react-lite';
 
