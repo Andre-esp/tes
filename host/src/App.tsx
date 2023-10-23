@@ -13,6 +13,8 @@ const App = () => (
     <Counter />
     <div>conflict1.1</div>
     <div>conflict1.2</div>
+    <div>conflict2.1</div>
+    <div>conflict2.2</div>
   </>
     
 );
