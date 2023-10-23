@@ -11,6 +11,8 @@ const App = () => (
   <div>Name: host</div>
     <Header />
     <Counter />
+    <div>conflict1.1</div>
+    <div>conflict1.2</div>
   </>
     
 );
