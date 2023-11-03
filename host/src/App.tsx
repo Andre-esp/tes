@@ -8,7 +8,7 @@ import "./index.css";
 
 const App = () => (
   <>
-  <div>Name: host</div>
+  <div>Name: host12</div>
     <Header />
     <Counter />
   </>
