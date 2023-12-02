@@ -14,7 +14,6 @@ const App = () => (
     <div>conflict2.1</div>
     <div>conflict2.2</div>
     <div>conflict</div>
-    <div>conflict1</div>
   </>
     
 );
