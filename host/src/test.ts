@@ -1,2 +1,3 @@
 console.log('test')
 const conflict = 2;
+console.log('mac')
