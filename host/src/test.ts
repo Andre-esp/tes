@@ -1,2 +1,2 @@
 console.log('test')
-const conflict = 2;
+const conflict = 1;
